@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gaegu');
+
+html,
+body {
+  background-color: #a9d7d1;
+  text-align: center;
+  font-family: 'Gaegu', cursive;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+}
+
+#form-outer {
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.leftSide {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightSide {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.text-input {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+input[type='checkbox'] {
+  float: left;
+  margin-right: 5px;
+}
+
+input[type='checkbox'], input[type='radio'] {
+  position: relative;
+  left: 
+}

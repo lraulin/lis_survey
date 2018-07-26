@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Life is Strange Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Life is Strange Survey</h1>
+  <div id="form-outer">
+    <form action="" id="survey-form" method="POST">
+      <div class="row">
+        <label for="name" id="name-label" class="leftSide">Name: </label>
+        <input type="text" name="name" id="name" class="text-input, rightSide" placeholder="Enter your name">
+        <br>
+        <label for="email" id="email-label" class="leftSide">Email: </label>
+        <input type="email" name="email" id="email" class="text-input, rightSide" placeholder="Enter your email">
+        <br>
+      </div>
+      <div class="row">
+        <label for="number" id="number-label" class="leftSide">Age: </label>
+        <input type="number" name="number" id="number" class="text-input, rightSide" placeholder="Enter your age">
+        <br>
+      </div>
+      <div class="row">
+        <div class="leftSide">
+          Sex:
+        </div>
+        <div class="rightSide">
+          <input type="radio" name="sex" value="male"> Male
+          <input type="radio" name="sex" value="female"> Female
+          <input type="radio" name="sex" value="helicopter"> Attack Helicopter
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="row">
+        <div class="leftSide">
+          <label for="dropbown" id="dropdown-label">Which did you choose to save?</label>
+        </div>
+        <div class="rightSide">
+          <select name="dropdown" id="dropdown">
+            <option value disabled selected style="display:none"></option>
+            <option value="chloe">Save Chloe</option>
+            <option value="arcadia">Save Arcadia Bay</option>
+          </select>
+        </div>
+        <br>
+      </div>
+      <div class="row">
+        <div class="leftSide">
+          Favorite Character
+        </div>
+        <br>
+        <div class="rightSide">
+          <input type="radio" name="favchar" value="chloe"> Chloe
+          <br>
+          <input type="radio" name="favchar" value="victoria"> Victoria
+          <br>
+          <input type="radio" name="favchar" value="rachel"> Rachel
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="leftSide">
+          Most Hated Character
+          <br>
+        </div>
+        <div class="rightSide">
+          <input type="radio" name="hatedchar" value="victoria"> Victoria
+          <br>
+          <input type="radio" name="hatedchar" value="nathan"> Nathan
+          <br>
+          <input type="radio" name="hatedchar" value="jefferson"> Jefferson
+          <br>
+          <input type="radio" name="hatedchar" value="chloe"> Chloe
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="leftSide">
+          What aspects of the game did you like?
+        </div>
+        <br>
+        <div class="rightSide">
+          <input type="checkbox" name="aspects" value="drama"> Teen Drama
+          <br>
+          <input type="checkbox" name="aspects" value="lesbian"> Lesbian Action
+          <br>
+          <input type="checkbox" name="aspects" value="characters"> Characters
+          <br>
+          <input type="checkbox" name="aspects" value="themes"> Themes
+          <br>
+          <input type="checkbox" name="aspects" value="timetravel"> Time Travel
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="leftSide">
+          What did you think were the main themes of the game?
+        </div>
+        <br>
+        <div class="rightSide">
+          <input type="checkbox" name="aspects" value="taxing"> Life is emotionally taxing
+          <br>
+          <input type="checkbox" name="aspects" value="chloe"> Chloe is a bullet magnet
+          <br>
+          <input type="checkbox" name="aspects" value="friendship"> The power of friendship
+          <br>
+          <input type="checkbox" name="aspects" value="hipsterism"> Hipsterism
+          <br>
+          <input type="checkbox" name="aspects" value="choices"> Choices matter, until you are presented with a binary choice that makes all previous choices irrelevant
+          <br>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        Comments?
+        <br>
+        <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Enter comments here..."></textarea>
+      </div>
+    </form>
+  </div>
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</body>
+
+</html>
