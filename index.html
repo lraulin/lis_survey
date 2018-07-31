@@ -11,19 +11,20 @@
 
 <body>
   <h1 id="title">Life is Strange Survey</h1>
+  <p id="description">A survey about your reactions to the game Life is Strange.</p>
   <div id="form-outer">
     <form action="" id="survey-form" method="POST">
       <div class="row">
         <label for="name" id="name-label" class="leftSide">Name: </label>
-        <input type="text" name="name" id="name" class="text-input, rightSide" placeholder="Enter your name">
+        <input type="text" name="name" id="name" class="text-input, rightSide" placeholder="Enter your name" required>
         <br>
         <label for="email" id="email-label" class="leftSide">Email: </label>
-        <input type="email" name="email" id="email" class="text-input, rightSide" placeholder="Enter your email">
+        <input type="email" name="email" id="email" class="text-input, rightSide" placeholder="Enter your email" required>
         <br>
       </div>
       <div class="row">
         <label for="number" id="number-label" class="leftSide">Age: </label>
-        <input type="number" name="number" id="number" class="text-input, rightSide" placeholder="Enter your age">
+        <input type="number" name="number" id="number" class="text-input, rightSide" placeholder="Enter your age" min=1 max=100>
         <br>
       </div>
       <div class="row">
@@ -123,6 +124,7 @@
         <br>
         <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Enter comments here..."></textarea>
       </div>
+      <button id="submit" type="submit">Submit</button>
     </form>
   </div>
   <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
